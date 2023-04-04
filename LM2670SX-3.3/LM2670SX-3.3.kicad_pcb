@@ -82,9 +82,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "")
+      (outputdirectory "Fab Files/")
     )
   )
 
@@ -1262,9 +1262,9 @@
       (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp 3df28bc2-acb7-4300-9180-692f269e57f4))
     (fp_line (start 0.8 1.6) (end 0.8 -1.6)
       (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp e32f8add-aea6-4279-8bbd-b82293e3dfb6))
-    (pad "1" smd roundrect (at -0.8375 0 180) (size 1.175 3.4) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.212766)
+    (pad "1" smd roundrect (at -0.8375 0 180) (size 1.175 3.4) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2127659574)
       (net 6 "Net-(IC1-SYNC)") (pintype "passive") (tstamp 5c60b074-a68a-4c26-b9d2-2cf4f7376586))
-    (pad "2" smd roundrect (at 0.8375 0 180) (size 1.175 3.4) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.212766)
+    (pad "2" smd roundrect (at 0.8375 0 180) (size 1.175 3.4) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2127659574)
       (net 2 "GND") (pintype "passive") (tstamp 12c44f70-7cb5-486e-964b-afe54b53b735))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0612_1632Metric.wrl"
       (offset (xyz 0 0 0))
