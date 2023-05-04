@@ -1450,7 +1450,7 @@
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp a7b798b7-0f8d-4d13-8968-8aa011439ab3))
   (gr_line (start 170.942 116.84) (end 170.942 84.455)
     (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp debd1fd8-b371-4737-9f5e-b4254ad76a05))
-  (gr_text "3.3V 1.0A\nLM2670SX" (at 190.126311 112.574941 90) (layer "F.SilkS") (tstamp a720c370-d77e-4956-8ac9-707342e72693)
+  (gr_text "LM2670SX" (at 190.126311 112.574941 90) (layer "F.SilkS") (tstamp a720c370-d77e-4956-8ac9-707342e72693)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
 
