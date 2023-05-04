@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "7.0.1"
     },
-    "CreationDate": "2023-04-27T19:12:44-07:00"
+    "CreationDate": "2023-05-04T15:38:18-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "LM2670SX-3.3",
-      "GUID": "4c4d3236-3730-4535-982d-332e332e6b69",
+      "Name": "LM2670SX-Carrier",
+      "GUID": "4c4d3236-3730-4535-982d-436172726965",
       "Revision": "rev?"
     },
     "Size": {
@@ -32,47 +32,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "LM2670SX-3.3-F_Cu.gbr",
+      "Path": "LM2670SX-Carrier-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "LM2670SX-3.3-B_Cu.gbr",
+      "Path": "LM2670SX-Carrier-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "LM2670SX-3.3-F_Paste.gbr",
+      "Path": "LM2670SX-Carrier-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "LM2670SX-3.3-B_Paste.gbr",
+      "Path": "LM2670SX-Carrier-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "LM2670SX-3.3-F_Silkscreen.gbr",
+      "Path": "LM2670SX-Carrier-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "LM2670SX-3.3-B_Silkscreen.gbr",
+      "Path": "LM2670SX-Carrier-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "LM2670SX-3.3-F_Mask.gbr",
+      "Path": "LM2670SX-Carrier-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "LM2670SX-3.3-B_Mask.gbr",
+      "Path": "LM2670SX-Carrier-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "LM2670SX-3.3-Edge_Cuts.gbr",
+      "Path": "LM2670SX-Carrier-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
