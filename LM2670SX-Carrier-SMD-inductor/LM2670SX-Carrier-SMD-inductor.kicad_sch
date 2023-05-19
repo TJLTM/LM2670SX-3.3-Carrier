@@ -162,57 +162,6 @@
         )
       )
     )
-    (symbol "Device:L" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "L" (at -1.27 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "L" (at 1.905 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "inductor choke coil reactor magnetic" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Inductor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "L_0_1"
-        (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "L_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 2.032 0 90)
         (effects (font (size 1.27 1.27)))
@@ -329,6 +278,77 @@
             (xy 5.08 -17.78)
             (xy 5.08 2.54)
           )
+          (stroke (width 0.1524) (type solid))
+          (fill (type none))
+        )
+      )
+    )
+    (symbol "SamacSys_Parts:SPM7054VT-330M-D" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
+      (property "Reference" "L" (at 16.51 6.35 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "SPM7054VT-330M-D" (at 16.51 3.81 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "SPM7054VT" (at 16.51 1.27 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_automotive_power_spm7054vt-d_en.pdf" (at 16.51 -1.27 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "Description" "Inductors for power circuits, Wound metal, Automotive" (at 16.51 -3.81 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "Height" "" (at 16.51 -6.35 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "Mouser Part Number" "810-SPM7054VT-330M-D" (at 16.51 -8.89 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/SPM7054VT-330M-D?qs=ahcBuItHZ3xT067VPMZIlw%3D%3D" (at 16.51 -11.43 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "Manufacturer_Name" "TDK" (at 16.51 -13.97 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "Manufacturer_Part_Number" "SPM7054VT-330M-D" (at 16.51 -16.51 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "ki_description" "Inductors for power circuits, Wound metal, Automotive" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "SPM7054VT-330M-D_0_0"
+        (pin passive line (at 0 0 0) (length 5.08)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 20.32 0 180) (length 5.08)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "SPM7054VT-330M-D_0_1"
+        (polyline
+          (pts
+            (xy 5.08 2.54)
+            (xy 15.24 2.54)
+          )
+          (stroke (width 0.1524) (type solid))
+          (fill (type none))
+        )
+        (arc (start 7.62 0) (mid 6.35 1.2202) (end 5.08 0)
+          (stroke (width 0.1524) (type solid))
+          (fill (type none))
+        )
+        (arc (start 10.16 0) (mid 8.89 1.2202) (end 7.62 0)
+          (stroke (width 0.1524) (type solid))
+          (fill (type none))
+        )
+        (arc (start 12.7 0) (mid 11.43 1.2202) (end 10.16 0)
+          (stroke (width 0.1524) (type solid))
+          (fill (type none))
+        )
+        (arc (start 15.24 0) (mid 13.97 1.2202) (end 12.7 0)
           (stroke (width 0.1524) (type solid))
           (fill (type none))
         )
@@ -623,6 +643,7 @@
     )
   )
 
+
   (junction (at 134.62 120.65) (diameter 0) (color 0 0 0 0)
     (uuid 0a00d904-6c11-4279-b359-d2f5ebe57133)
   )
@@ -638,19 +659,19 @@
   (junction (at 143.51 96.52) (diameter 0) (color 0 0 0 0)
     (uuid 67726474-1944-48aa-ac0c-ee4afd1a9558)
   )
+  (junction (at 181.61 96.52) (diameter 0) (color 0 0 0 0)
+    (uuid 85b61fc3-de2a-4a3a-ae5f-bdedf4ebd090)
+  )
   (junction (at 157.48 120.65) (diameter 0) (color 0 0 0 0)
     (uuid a2888398-b602-4a5c-bb16-7d7c47e93ca9)
   )
   (junction (at 146.05 120.65) (diameter 0) (color 0 0 0 0)
     (uuid bf913dc6-aa0e-4f3f-b418-bfabb3ca5086)
   )
-  (junction (at 172.72 96.52) (diameter 0) (color 0 0 0 0)
-    (uuid cf21e70b-c3d6-4a32-8076-dbf7011e9e81)
-  )
-  (junction (at 172.72 76.2) (diameter 0) (color 0 0 0 0)
+  (junction (at 181.61 76.2) (diameter 0) (color 0 0 0 0)
     (uuid cff03f3d-6e2a-4740-ba45-4d909e076424)
   )
-  (junction (at 198.12 81.28) (diameter 0) (color 0 0 0 0)
+  (junction (at 207.01 81.28) (diameter 0) (color 0 0 0 0)
     (uuid db08001b-2a42-421d-9dd2-f5ad7e819d1e)
   )
   (junction (at 134.62 104.14) (diameter 0) (color 0 0 0 0)
@@ -662,7 +683,7 @@
 
   (no_connect (at 130.81 73.66) (uuid 895ce337-2a6e-420c-b473-83e225396026))
 
-  (wire (pts (xy 157.48 120.65) (xy 172.72 120.65))
+  (wire (pts (xy 157.48 120.65) (xy 181.61 120.65))
     (stroke (width 0) (type default))
     (uuid 05974d54-11c4-4776-9967-d6e784b61920)
   )
@@ -678,15 +699,15 @@
     (stroke (width 0) (type default))
     (uuid 14c133cc-56e1-41aa-bc7f-75297c7f9a51)
   )
-  (wire (pts (xy 184.15 83.82) (xy 203.2 83.82))
+  (wire (pts (xy 193.04 83.82) (xy 212.09 83.82))
     (stroke (width 0) (type default))
     (uuid 18272c5d-171d-4ee1-8b70-5e1ff07a7d95)
   )
-  (wire (pts (xy 163.83 76.2) (xy 172.72 76.2))
+  (wire (pts (xy 163.83 76.2) (xy 181.61 76.2))
     (stroke (width 0) (type default))
     (uuid 1d75e189-4087-43a7-a6e1-34dc34902eed)
   )
-  (wire (pts (xy 172.72 76.2) (xy 172.72 96.52))
+  (wire (pts (xy 181.61 76.2) (xy 181.61 96.52))
     (stroke (width 0) (type default))
     (uuid 39f34733-70b2-470d-867b-46fbe3cd0bb7)
   )
@@ -694,11 +715,11 @@
     (stroke (width 0) (type default))
     (uuid 4139a5b5-9cc6-42f5-91d0-5b4ee7d3c87c)
   )
-  (wire (pts (xy 191.135 86.36) (xy 203.2 86.36))
+  (wire (pts (xy 200.025 86.36) (xy 212.09 86.36))
     (stroke (width 0) (type default))
     (uuid 463f9097-8266-4ba3-92e9-2443a005da79)
   )
-  (wire (pts (xy 198.12 81.28) (xy 203.2 81.28))
+  (wire (pts (xy 207.01 81.28) (xy 212.09 81.28))
     (stroke (width 0) (type default))
     (uuid 681aa1a6-096c-4e02-b993-446c85a06408)
   )
@@ -706,7 +727,7 @@
     (stroke (width 0) (type default))
     (uuid 6a577aee-0dab-4106-beef-37ab3984f41b)
   )
-  (wire (pts (xy 172.72 120.65) (xy 172.72 105.41))
+  (wire (pts (xy 181.61 120.65) (xy 181.61 105.41))
     (stroke (width 0) (type default))
     (uuid 6abab89b-104f-456b-a42a-d71771a875bd)
   )
@@ -721,6 +742,10 @@
   (wire (pts (xy 134.62 120.65) (xy 134.62 121.92))
     (stroke (width 0) (type default))
     (uuid 76ef5fa5-3984-425e-aff0-f78540367b21)
+  )
+  (wire (pts (xy 180.34 96.52) (xy 181.61 96.52))
+    (stroke (width 0) (type default))
+    (uuid 79545560-ba90-4290-9cc2-4f45d93edd13)
   )
   (wire (pts (xy 134.62 120.65) (xy 134.62 111.76))
     (stroke (width 0) (type default))
@@ -762,15 +787,15 @@
     (stroke (width 0) (type default))
     (uuid b4c545aa-b4a1-4dfe-8843-accdfd66600c)
   )
-  (wire (pts (xy 172.72 96.52) (xy 167.64 96.52))
+  (wire (pts (xy 181.61 96.52) (xy 181.61 97.79))
     (stroke (width 0) (type default))
-    (uuid b9f93fe4-48a7-455d-8e23-a1747f5c2803)
+    (uuid b87a235d-c1cc-4367-9254-a17bfe7e5a5a)
   )
   (wire (pts (xy 152.4 86.36) (xy 156.21 86.36))
     (stroke (width 0) (type default))
     (uuid bb63aefe-ecbd-4725-9e63-cb257e23289b)
   )
-  (wire (pts (xy 189.23 81.28) (xy 198.12 81.28))
+  (wire (pts (xy 198.12 81.28) (xy 207.01 81.28))
     (stroke (width 0) (type default))
     (uuid cb5a44ce-5cb3-43c4-af89-fbaa8521a48e)
   )
@@ -802,10 +827,6 @@
     (stroke (width 0) (type default))
     (uuid f9667205-e104-47d6-9329-fb59bb19c59f)
   )
-  (wire (pts (xy 172.72 97.79) (xy 172.72 96.52))
-    (stroke (width 0) (type default))
-    (uuid fbf75c0b-7c85-4887-99f7-0bd0844d0743)
-  )
   (wire (pts (xy 130.81 88.9) (xy 130.81 96.52))
     (stroke (width 0) (type default))
     (uuid ff2b073b-b2fc-4973-a78d-fabe2b088ea5)
@@ -833,7 +854,7 @@
     (pin "1" (uuid 55ba4b39-0e18-4946-8a6e-4bc106f21314))
     (pin "2" (uuid e7c78d10-5541-4909-90a7-456c30543f9e))
     (instances
-      (project "LM2670SX-3.3"
+      (project "LM2670SX-Carrier-SMD-inductor"
         (path "/4a06ddf2-5686-48f5-83c9-f6e852ec0240"
           (reference "C3") (unit 1)
         )
@@ -863,7 +884,7 @@
     )
     (pin "1" (uuid dd4024f2-b9f9-4bf4-97af-7be0bb198a4b))
     (instances
-      (project "LM2670SX-3.3"
+      (project "LM2670SX-Carrier-SMD-inductor"
         (path "/4a06ddf2-5686-48f5-83c9-f6e852ec0240"
           (reference "#FLG01") (unit 1)
         )
@@ -876,24 +897,24 @@
     )
   )
 
-  (symbol (lib_id "power:PWR_FLAG") (at 198.12 81.28 0) (unit 1)
+  (symbol (lib_id "power:PWR_FLAG") (at 207.01 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 193f551b-f811-4522-a168-1b46e15f9de8)
-    (property "Reference" "#FLG02" (at 198.12 79.375 0)
+    (property "Reference" "#FLG02" (at 207.01 79.375 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "PWR_FLAG" (at 198.12 77.6755 0)
+    (property "Value" "PWR_FLAG" (at 207.01 77.6755 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 198.12 81.28 0)
+    (property "Footprint" "" (at 207.01 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 198.12 81.28 0)
+    (property "Datasheet" "~" (at 207.01 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c62a3f33-d3fc-48d3-81fb-810b580f1510))
     (instances
-      (project "LM2670SX-3.3"
+      (project "LM2670SX-Carrier-SMD-inductor"
         (path "/4a06ddf2-5686-48f5-83c9-f6e852ec0240"
           (reference "#FLG02") (unit 1)
         )
@@ -948,40 +969,9 @@
     (pin "7" (uuid 592dd4d2-bb99-4416-a0b7-b8beea434670))
     (pin "8" (uuid 0796f483-76fd-45a1-bbdb-5bfd13d9ce2b))
     (instances
-      (project "LM2670SX-3.3"
+      (project "LM2670SX-Carrier-SMD-inductor"
         (path "/4a06ddf2-5686-48f5-83c9-f6e852ec0240"
           (reference "IC1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:L") (at 163.83 96.52 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4285f33a-d9bc-4c35-8713-f2dc012dd2b9)
-    (property "Reference" "L1" (at 163.83 91.694 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "33mH" (at 163.83 94.0054 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Inductor_THT:L_Axial_L9.5mm_D4.0mm_P15.24mm_Horizontal_Fastron_SMCC" (at 163.83 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 163.83 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 82fc3600-e1f7-42f9-8bdc-bc80481745c0))
-    (pin "2" (uuid 8688e3ea-e001-4274-a95e-5550d738a568))
-    (instances
-      (project "LM2670SX-3.3"
-        (path "/4a06ddf2-5686-48f5-83c9-f6e852ec0240"
-          (reference "L1") (unit 1)
-        )
-      )
-      (project "AMS-Mega2560-Base"
-        (path "/7d0dab95-9e7a-486e-a1d7-fc48860fd57d/00000000-0000-0000-0000-000061493c0e"
-          (reference "L1") (unit 1)
         )
       )
     )
@@ -1004,7 +994,7 @@
     )
     (pin "1" (uuid e1b051f8-d7de-4352-a991-371471895754))
     (instances
-      (project "LM2670SX-3.3"
+      (project "LM2670SX-Carrier-SMD-inductor"
         (path "/4a06ddf2-5686-48f5-83c9-f6e852ec0240"
           (reference "#PWR07") (unit 1)
         )
@@ -1034,7 +1024,7 @@
     )
     (pin "1" (uuid e705355c-d80c-447e-b371-3d5e7b850005))
     (instances
-      (project "LM2670SX-3.3"
+      (project "LM2670SX-Carrier-SMD-inductor"
         (path "/4a06ddf2-5686-48f5-83c9-f6e852ec0240"
           (reference "#PWR06") (unit 1)
         )
@@ -1065,7 +1055,7 @@
     (pin "1" (uuid c48a0622-21bc-4358-87dc-5d6810f67063))
     (pin "2" (uuid 3aa6068f-faf2-480e-96cd-ad34d69a17b9))
     (instances
-      (project "LM2670SX-3.3"
+      (project "LM2670SX-Carrier-SMD-inductor"
         (path "/4a06ddf2-5686-48f5-83c9-f6e852ec0240"
           (reference "C4") (unit 1)
         )
@@ -1078,25 +1068,25 @@
     )
   )
 
-  (symbol (lib_id "Device:CP") (at 172.72 101.6 0) (unit 1)
+  (symbol (lib_id "Device:CP") (at 181.61 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 68d5c893-e515-45fe-b370-5900f5609de9)
-    (property "Reference" "C5" (at 175.7172 100.4316 0)
+    (property "Reference" "C5" (at 184.6072 100.4316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "120uF" (at 175.7172 102.743 0)
+    (property "Value" "120uF" (at 184.6072 102.743 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" (at 173.6852 105.41 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" (at 182.5752 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 172.72 101.6 0)
+    (property "Datasheet" "~" (at 181.61 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 97f5c5df-19b1-4325-91e2-424e78468f43))
     (pin "2" (uuid cf0f0105-37e0-4ac3-bb5d-f6c141428e6e))
     (instances
-      (project "LM2670SX-3.3"
+      (project "LM2670SX-Carrier-SMD-inductor"
         (path "/4a06ddf2-5686-48f5-83c9-f6e852ec0240"
           (reference "C5") (unit 1)
         )
@@ -1127,7 +1117,7 @@
     (pin "1" (uuid 79be1d35-e33b-4db0-9b92-888641c1f126))
     (pin "2" (uuid a354590e-c70e-47a3-a6bc-5989b6813d2a))
     (instances
-      (project "LM2670SX-3.3"
+      (project "LM2670SX-Carrier-SMD-inductor"
         (path "/4a06ddf2-5686-48f5-83c9-f6e852ec0240"
           (reference "C1") (unit 1)
         )
@@ -1140,24 +1130,24 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 172.72 76.2 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 181.61 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 89baffd6-62de-4009-baaa-96b2d723420a)
-    (property "Reference" "#PWR05" (at 172.72 80.01 0)
+    (property "Reference" "#PWR05" (at 181.61 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3V" (at 173.101 71.8058 0)
+    (property "Value" "+3.3V" (at 181.991 71.8058 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 172.72 76.2 0)
+    (property "Footprint" "" (at 181.61 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 172.72 76.2 0)
+    (property "Datasheet" "" (at 181.61 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 34c3572f-b558-4a62-b3c6-ca1e29820cc3))
     (instances
-      (project "LM2670SX-3.3"
+      (project "LM2670SX-Carrier-SMD-inductor"
         (path "/4a06ddf2-5686-48f5-83c9-f6e852ec0240"
           (reference "#PWR05") (unit 1)
         )
@@ -1170,24 +1160,24 @@
     )
   )
 
-  (symbol (lib_id "power:+VDC") (at 189.23 81.28 0) (unit 1)
+  (symbol (lib_id "power:+VDC") (at 198.12 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 985151d2-ac9a-482f-b3f9-5157ac5bdd98)
-    (property "Reference" "#PWR02" (at 189.23 83.82 0)
+    (property "Reference" "#PWR02" (at 198.12 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+VDC" (at 189.23 74.295 0)
+    (property "Value" "+VDC" (at 198.12 74.295 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 189.23 81.28 0)
+    (property "Footprint" "" (at 198.12 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 189.23 81.28 0)
+    (property "Datasheet" "" (at 198.12 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 65a9b9a7-7ef6-487d-a42d-7aeddcd40413))
     (instances
-      (project "LM2670SX-3.3"
+      (project "LM2670SX-Carrier-SMD-inductor"
         (path "/4a06ddf2-5686-48f5-83c9-f6e852ec0240"
           (reference "#PWR02") (unit 1)
         )
@@ -1200,24 +1190,24 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 184.15 83.82 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 193.04 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9e5c7e68-d38d-4553-81b1-e8f6bc46b2ca)
-    (property "Reference" "#PWR01" (at 184.15 87.63 0)
+    (property "Reference" "#PWR01" (at 193.04 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3V" (at 184.531 79.4258 0)
+    (property "Value" "+3.3V" (at 193.421 79.4258 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 184.15 83.82 0)
+    (property "Footprint" "" (at 193.04 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 184.15 83.82 0)
+    (property "Datasheet" "" (at 193.04 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e7a483b3-46bb-45a4-b9b8-87487227ff78))
     (instances
-      (project "LM2670SX-3.3"
+      (project "LM2670SX-Carrier-SMD-inductor"
         (path "/4a06ddf2-5686-48f5-83c9-f6e852ec0240"
           (reference "#PWR01") (unit 1)
         )
@@ -1266,7 +1256,7 @@
     (pin "1" (uuid 5b849233-bcd3-4ab0-8e25-0e263bd1fa54))
     (pin "2" (uuid b8846c15-0659-44e8-9d7b-f47c89b88463))
     (instances
-      (project "LM2670SX-3.3"
+      (project "LM2670SX-Carrier-SMD-inductor"
         (path "/4a06ddf2-5686-48f5-83c9-f6e852ec0240"
           (reference "D2") (unit 1)
         )
@@ -1274,26 +1264,26 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 208.28 83.82 0) (unit 1)
+  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 217.17 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b788095a-c100-459c-af0f-f6b2d1f0f70c)
-    (property "Reference" "J1" (at 210.312 82.9115 0)
+    (property "Reference" "J1" (at 219.202 82.9115 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x03" (at 210.312 85.6866 0)
+    (property "Value" "Conn_01x03" (at 219.202 85.6866 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 208.28 83.82 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 217.17 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 208.28 83.82 0)
+    (property "Datasheet" "~" (at 217.17 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 09ebb205-815f-4c0d-8ab6-36a16270c6ff))
     (pin "2" (uuid 680f4f71-0612-418a-b863-de21a84fb1fe))
     (pin "3" (uuid 907898dd-dfef-4a81-9680-81353b897f21))
     (instances
-      (project "LM2670SX-3.3"
+      (project "LM2670SX-Carrier-SMD-inductor"
         (path "/4a06ddf2-5686-48f5-83c9-f6e852ec0240"
           (reference "J1") (unit 1)
         )
@@ -1324,7 +1314,7 @@
     (pin "1" (uuid aee66356-ff55-40f1-85e2-437b6d93d2f4))
     (pin "2" (uuid a08f2c2e-34a0-48f7-80f3-dddd40eeb8a4))
     (instances
-      (project "LM2670SX-3.3"
+      (project "LM2670SX-Carrier-SMD-inductor"
         (path "/4a06ddf2-5686-48f5-83c9-f6e852ec0240"
           (reference "C2") (unit 1)
         )
@@ -1354,7 +1344,7 @@
     )
     (pin "1" (uuid b98dbda5-2d6e-4323-b93d-a03eee96dbea))
     (instances
-      (project "LM2670SX-3.3"
+      (project "LM2670SX-Carrier-SMD-inductor"
         (path "/4a06ddf2-5686-48f5-83c9-f6e852ec0240"
           (reference "#PWR04") (unit 1)
         )
@@ -1384,7 +1374,7 @@
     )
     (pin "1" (uuid 7e7318a6-23be-472f-b7ee-6b4f9d0cb9b4))
     (instances
-      (project "LM2670SX-3.3"
+      (project "LM2670SX-Carrier-SMD-inductor"
         (path "/4a06ddf2-5686-48f5-83c9-f6e852ec0240"
           (reference "#PWR09") (unit 1)
         )
@@ -1397,24 +1387,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 191.135 86.36 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 200.025 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e6a639c6-20cb-435a-80e8-522cbde1d239)
-    (property "Reference" "#PWR03" (at 191.135 92.71 0)
+    (property "Reference" "#PWR03" (at 200.025 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 191.262 90.7542 0)
+    (property "Value" "GND" (at 200.152 90.7542 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 191.135 86.36 0)
+    (property "Footprint" "" (at 200.025 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 191.135 86.36 0)
+    (property "Datasheet" "" (at 200.025 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a0cc141e-9415-4059-85fe-6ab01c1bc6ac))
     (instances
-      (project "LM2670SX-3.3"
+      (project "LM2670SX-Carrier-SMD-inductor"
         (path "/4a06ddf2-5686-48f5-83c9-f6e852ec0240"
           (reference "#PWR03") (unit 1)
         )
@@ -1422,6 +1412,50 @@
       (project "MakeItRain"
         (path "/6e68f0cd-800e-4167-9553-71fc59da1eeb/99204adf-a081-4da3-8031-dd03bceb7b2a"
           (reference "#PWR09") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "SamacSys_Parts:SPM7054VT-330M-D") (at 160.02 96.52 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f5c2f638-65ae-4c9a-b434-a9c9a1f121d3)
+    (property "Reference" "L2" (at 170.18 90.17 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "SPM7054VT-330M-D" (at 170.18 92.71 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "SPM7054VT" (at 176.53 95.25 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_automotive_power_spm7054vt-d_en.pdf" (at 176.53 97.79 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Description" "Inductors for power circuits, Wound metal, Automotive" (at 176.53 100.33 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Height" "" (at 176.53 102.87 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Mouser Part Number" "810-SPM7054VT-330M-D" (at 176.53 105.41 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/SPM7054VT-330M-D?qs=ahcBuItHZ3xT067VPMZIlw%3D%3D" (at 176.53 107.95 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Manufacturer_Name" "TDK" (at 176.53 110.49 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Manufacturer_Part_Number" "SPM7054VT-330M-D" (at 176.53 113.03 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (pin "1" (uuid 6f4cc199-e84a-43f7-88d0-465cf8b796e5))
+    (pin "2" (uuid dabac16e-0445-4015-aead-b36d5f6bc9af))
+    (instances
+      (project "LM2670SX-Carrier-SMD-inductor"
+        (path "/4a06ddf2-5686-48f5-83c9-f6e852ec0240"
+          (reference "L2") (unit 1)
         )
       )
     )
@@ -1445,7 +1479,7 @@
     (pin "1" (uuid 3efe55d0-6073-4a4b-8dff-95a4572c1dd8))
     (pin "2" (uuid af562a91-15c4-4147-ac03-6463ba8c62a4))
     (instances
-      (project "LM2670SX-3.3"
+      (project "LM2670SX-Carrier-SMD-inductor"
         (path "/4a06ddf2-5686-48f5-83c9-f6e852ec0240"
           (reference "R1") (unit 1)
         )
