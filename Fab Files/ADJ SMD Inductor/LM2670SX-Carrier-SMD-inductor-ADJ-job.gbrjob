@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "7.0.1"
     },
-    "CreationDate": "2023-06-01T20:52:03-07:00"
+    "CreationDate": "2023-06-01T20:44:39-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "LM2670-ADJ-Carrier",
-      "GUID": "4c4d3236-3730-42d4-9144-4a2d43617272",
+      "Name": "LM2670SX-Carrier-SMD-inductor-ADJ",
+      "GUID": "4c4d3236-3730-4535-982d-436172726965",
       "Revision": "rev?"
     },
     "Size": {
@@ -27,52 +27,52 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.762
+      "MinLineWidth": 0.508
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "LM2670-ADJ-Carrier-F_Cu.gbr",
+      "Path": "LM2670SX-Carrier-SMD-inductor-ADJ-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "LM2670-ADJ-Carrier-B_Cu.gbr",
+      "Path": "LM2670SX-Carrier-SMD-inductor-ADJ-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "LM2670-ADJ-Carrier-F_Paste.gbr",
+      "Path": "LM2670SX-Carrier-SMD-inductor-ADJ-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "LM2670-ADJ-Carrier-B_Paste.gbr",
+      "Path": "LM2670SX-Carrier-SMD-inductor-ADJ-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "LM2670-ADJ-Carrier-F_Silkscreen.gbr",
+      "Path": "LM2670SX-Carrier-SMD-inductor-ADJ-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "LM2670-ADJ-Carrier-B_Silkscreen.gbr",
+      "Path": "LM2670SX-Carrier-SMD-inductor-ADJ-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "LM2670-ADJ-Carrier-F_Mask.gbr",
+      "Path": "LM2670SX-Carrier-SMD-inductor-ADJ-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "LM2670-ADJ-Carrier-B_Mask.gbr",
+      "Path": "LM2670SX-Carrier-SMD-inductor-ADJ-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "LM2670-ADJ-Carrier-Edge_Cuts.gbr",
+      "Path": "LM2670SX-Carrier-SMD-inductor-ADJ-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
