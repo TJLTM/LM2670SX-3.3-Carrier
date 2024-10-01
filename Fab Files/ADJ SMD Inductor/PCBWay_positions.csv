@@ -1,0 +1,12 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,value,mount_type,place
+153.150694,-89.852484,180.0,top,C1,,CP_Radial_D5.0mm_P2.50mm,15uF,tht,True
+148.158263,-103.439855,-90.0,top,C2,,CP_Radial_D5.0mm_P2.50mm,15uF,tht,True
+139.612584,-94.977917,180.0,bottom,C3,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,0.1uF,smt,True
+139.013144,-103.68565,-90.0,bottom,C4,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,0.47uF,smt,True
+138.049386,-107.482969,0.0,top,C5,,CP_Radial_D8.0mm_P5.00mm,120uF,tht,True
+143.938067,-103.490944,180.0,bottom,D1,,SODFL5226X100N,VSSAF3N50-M3_6A,smt,True
+142.161749,-91.5868,-90.0,top,IC1,,LM2670SX33NOPB,LM2670SX-3.3_NOPB,smt,True
+153.109449,-101.617,180.0,top,J1,,PinHeader_1x03_P2.54mm_Vertical,Conn_01x03,tht,True
+149.828314,-112.641863,0.0,top,L1,,SPM7054VT,SPM7054VT-330M-D,smt,True
+144.744332,-89.975243,180.0,bottom,R2,,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,4.7K,smt,True
+139.716067,-89.98109,180.0,bottom,R3,,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,4.7K,smt,True
