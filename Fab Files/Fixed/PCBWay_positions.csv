@@ -1,0 +1,11 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,value,mount_type,place
+188.788945,-89.705684,180.0,top,C1,,CP_Radial_D5.0mm_P2.50mm,15uF,tht,True
+183.796514,-103.293055,-90.0,top,C2,,CP_Radial_D5.0mm_P2.50mm,15uF,tht,True
+174.787867,-93.347486,180.0,bottom,C3,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,0.1uF,smt,True
+173.678805,-103.308286,-90.0,bottom,C4,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,0.47uF,smt,True
+173.687637,-107.336169,0.0,top,C5,,CP_Radial_D8.0mm_P5.00mm,120uF,tht,True
+178.951145,-103.34193,0.0,bottom,D2,,SODFL5226X100N,VSSAF3N50-M3_6A,smt,True
+177.8,-91.44,-90.0,top,IC1,,LM2670SX33NOPB,LM2670SX-3.3_NOPB,smt,True
+188.7477,-101.4702,180.0,top,J1,,PinHeader_1x03_P2.54mm_Vertical,Conn_01x03,tht,True
+173.209934,-114.285576,0.0,top,L1,,L_Axial_L9.5mm_D4.0mm_P15.24mm_Horizontal_Fastron_SMCC,33mH,tht,True
+180.611875,-93.399026,180.0,bottom,R1,,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,4.7K,smt,True

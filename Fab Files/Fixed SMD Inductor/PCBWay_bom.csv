@@ -1,0 +1,10 @@
+﻿designator,quantity,value,pack,mpn,mount_type
+"C1, C2",2,15uF,CP_Radial_D5.0mm_P2.50mm,,tht
+C3,1,0.1uF,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,,smt
+C4,1,0.47uF,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,,smt
+C5,1,120uF,CP_Radial_D8.0mm_P5.00mm,,tht
+D2,1,VSSAF3N50-M3_6A,SODFL5226X100N,,smt
+IC1,1,LM2670SX-3.3_NOPB,LM2670SX33NOPB,,smt
+J1,1,Conn_01x03,PinHeader_1x03_P2.54mm_Vertical,,tht
+L2,1,SPM7054VT-330M-D,SPM7054VT,,smt
+R1,1,4.7K,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,,smt

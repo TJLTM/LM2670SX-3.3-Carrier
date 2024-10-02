@@ -67,6 +67,12 @@
     "visible_layers": "ffffffc_ffffffff",
     "zone_display_mode": 0
   },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
+  },
   "meta": {
     "filename": "LM2670SX-Carrier-SMD-inductor-ADJ.kicad_prl",
     "version": 3
